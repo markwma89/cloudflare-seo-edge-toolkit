@@ -1,0 +1,20 @@
+# Cloudflare Pages _redirects
+#
+# 1) .html duplicates -> clean URLs. Without these, /about and /about.html can
+#    both end up indexed. Point each one straight at the canonical URL.
+/index.html                 /                      301!
+/about.html                 /about                 301
+/services.html              /services              301
+/contact.html               /contact               301
+/services/bulkheads.html    /services/bulkheads    301
+
+# 2) Legacy URLs from an old site -> closest match on the new one.
+#    One hop each, no chains. Crawl the old sitemap before launch to catch
+#    anything not listed here.
+/dock-repair-old-page.html          /services/docks-piers/        301
+/bulkhead-repair-old-page.html      /services/bulkheads-seawalls/ 301
+/old-contact-page.php               /contact/                     301
+
+# 3) A discontinued service: send it to the parent page, not the homepage.
+/services/dredging/                 /services/                    301
+/services/dredging                  /services/                    301

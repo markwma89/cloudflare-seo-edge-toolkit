@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "HomeAndConstructionBusiness",
+      "@id": "https://example.com/#business",
+      "name": "Example Marine Construction",
+      "url": "https://example.com/",
+      "telephone": "+15555550100",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "100 Harbor Road",
+        "addressLocality": "Example Beach",
+        "addressRegion": "NC",
+        "postalCode": "28400",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Example Beach, NC" },
+        { "@type": "City", "name": "Harbor Town, NC" }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://example.com/#website",
+      "url": "https://example.com/",
+      "name": "Example Marine Construction",
+      "publisher": { "@id": "https://example.com/#business" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://example.com/services/bulkheads-seawalls#webpage",
+      "url": "https://example.com/services/bulkheads-seawalls",
+      "name": "Bulkheads and Seawalls in Example Beach, NC",
+      "isPartOf": { "@id": "https://example.com/#website" },
+      "about": { "@id": "https://example.com/services/bulkheads-seawalls#service" },
+      "breadcrumb": { "@id": "https://example.com/services/bulkheads-seawalls#breadcrumb" }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://example.com/services/bulkheads-seawalls#service",
+      "name": "Bulkhead and seawall construction",
+      "serviceType": "Bulkhead construction",
+      "provider": { "@id": "https://example.com/#business" },
+      "areaServed": { "@type": "State", "name": "North Carolina" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://example.com/services/bulkheads-seawalls#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://example.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://example.com/services" },
+        { "@type": "ListItem", "position": 3, "name": "Bulkheads and Seawalls", "item": "https://example.com/services/bulkheads-seawalls" }
+      ]
+    }
+  ]
+}

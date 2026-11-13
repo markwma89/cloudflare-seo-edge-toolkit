@@ -1,0 +1,23 @@
+# example.com
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# AI search and user-initiated assistants (answer engines, agentic browsing).
+# These fetch pages to cite them in answers. They are not training crawlers,
+# so blocking them just keeps the business out of AI answers.
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: DuckAssistBot
+User-agent: MistralAI-User
+Allow: /
+Disallow: /api/
+
+# Machine-readable site summary: /llms.txt
+
+Sitemap: https://example.com/sitemap.xml

@@ -1,0 +1,27 @@
+# Example Marine Construction
+
+> Family-owned marine contractor in Example Beach, North Carolina. Docks, piers, bulkheads, boat lifts and piling repair for waterfront homeowners. Free estimates: (555) 555-0100.
+
+- Phone: (555) 555-0100
+- Address: 100 Harbor Road, Example Beach, NC 28400
+- Core service area: Example Beach, Harbor Town, Bayside (NC)
+- Estimate requests: https://example.com/contact
+
+## Services
+- [Docks and Piers](https://example.com/services/docks-piers): New fixed and floating docks, pier extensions and repairs.
+- [Bulkheads and Seawalls](https://example.com/services/bulkheads-seawalls): Vinyl and wood bulkhead construction and replacement.
+- [Piling Repair](https://example.com/services/piling-repair-replacement): Piling replacement and jacketing for docks and piers.
+- [Boat Lifts](https://example.com/services/boat-lifts): Boat lift installation and service.
+
+## Service areas
+- [Example Beach, NC](https://example.com/service-areas/example-beach-nc)
+- [Harbor Town, NC](https://example.com/service-areas/harbor-town-nc)
+
+## Guides
+- [How Much Does a Bulkhead Cost?](https://example.com/blog/bulkhead-cost): What drives bulkhead pricing on the NC coast and what to ask before you hire.
+- [Floating vs Fixed Docks](https://example.com/blog/floating-vs-fixed-docks): Which one suits your water depth, tide range and boat.
+
+## Company
+- [About](https://example.com/about)
+- [Project gallery](https://example.com/gallery)
+- [Contact and free estimate](https://example.com/contact)
